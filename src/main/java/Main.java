@@ -11,8 +11,8 @@ public class Main {
             
             // Check if API key is provided as second argument
             if (args.length > 1) {
-                String apiKey = "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";
-                System.setProperty("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", apiKey);
+                String apiKey = "your LLM API";
+                System.setProperty("your LLM API", apiKey);
                 System.out.println("API key provided");
             } else {
                 System.out.println("No API key provided - some services may require authentication");
